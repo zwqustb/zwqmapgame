@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>印度洋</key>
+	<dict/>
+	<key>北冰洋</key>
+	<dict/>
+	<key>大西洋</key>
+	<dict/>
+	<key>太平洋</key>
+	<dict/>
+	<key>南极洲</key>
+	<dict/>
+	<key>大洋洲</key>
+	<dict/>
+	<key>南美</key>
+	<dict/>
+	<key>北美</key>
+	<dict/>
+	<key>欧洲</key>
+	<dict/>
+	<key>非洲</key>
+	<dict/>
+	<key>亚洲</key>
+	<dict>
+		<key>strColor</key>
+		<string></string>
+		<key>aryArea</key>
+		<array/>
+	</dict>
+</dict>
+</plist>
