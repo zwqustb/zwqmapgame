@@ -15,6 +15,10 @@
 		3B777E012380FFD3001FC345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B777E002380FFD3001FC345 /* Assets.xcassets */; };
 		3B777E042380FFD3001FC345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B777E022380FFD3001FC345 /* LaunchScreen.storyboard */; };
 		3B777E1023810B0C001FC345 /* EarthAreaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B777E0F23810B0C001FC345 /* EarthAreaList.plist */; };
+		3B7FBD3D238A57C00071A154 /* UITools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7FBD3C238A57C00071A154 /* UITools.swift */; };
+		3B7FBD3F238A58350071A154 /* LanguageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7FBD3E238A58340071A154 /* LanguageTool.swift */; };
+		3B7FBD41238A586B0071A154 /* extColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7FBD40238A586B0071A154 /* extColor.swift */; };
+		3B7FBD43238A587F0071A154 /* extString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7FBD42238A587F0071A154 /* extString.swift */; };
 		3BFCFC47238669FC00CDF2AC /* AreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCFC46238669FC00CDF2AC /* AreaView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +33,10 @@
 		3B777E032380FFD3001FC345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B777E052380FFD3001FC345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B777E0F23810B0C001FC345 /* EarthAreaList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EarthAreaList.plist; sourceTree = "<group>"; };
+		3B7FBD3C238A57C00071A154 /* UITools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITools.swift; path = globalFunc/UITools.swift; sourceTree = "<group>"; };
+		3B7FBD3E238A58340071A154 /* LanguageTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageTool.swift; path = globalFunc/LanguageTool.swift; sourceTree = "<group>"; };
+		3B7FBD40238A586B0071A154 /* extColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extColor.swift; path = extenstion/extColor.swift; sourceTree = "<group>"; };
+		3B7FBD42238A587F0071A154 /* extString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extString.swift; path = extenstion/extString.swift; sourceTree = "<group>"; };
 		3BFCFC46238669FC00CDF2AC /* AreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +70,10 @@
 		3B16775523814953008A364A /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				3B7FBD42238A587F0071A154 /* extString.swift */,
+				3B7FBD40238A586B0071A154 /* extColor.swift */,
+				3B7FBD3E238A58340071A154 /* LanguageTool.swift */,
+				3B7FBD3C238A57C00071A154 /* UITools.swift */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -197,7 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B777DF92380FFD0001FC345 /* ViewController.swift in Sources */,
+				3B7FBD41238A586B0071A154 /* extColor.swift in Sources */,
+				3B7FBD3D238A57C00071A154 /* UITools.swift in Sources */,
 				3B777DFF2380FFD0001FC345 /* ZwqMapGame.xcdatamodeld in Sources */,
+				3B7FBD43238A587F0071A154 /* extString.swift in Sources */,
+				3B7FBD3F238A58350071A154 /* LanguageTool.swift in Sources */,
 				3B777DF52380FFD0001FC345 /* AppDelegate.swift in Sources */,
 				3BFCFC47238669FC00CDF2AC /* AreaView.swift in Sources */,
 				3B777DF72380FFD0001FC345 /* SceneDelegate.swift in Sources */,

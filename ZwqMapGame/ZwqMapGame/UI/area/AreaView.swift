@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AreaView: UIView {
+class AreaView: UIButton {
 
     /*
     // Only override draw() if you perform custom drawing.
