@@ -9,7 +9,8 @@
 import UIKit
 
 class AreaView: UIButton {
-
+    var m_pBgColor = UIColor.yellow
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
